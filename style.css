@@ -1,0 +1,334 @@
+/* Css originally by mejobloggs. Design by Aran @ stuio7designs.com */
+/* Evoskin conversion by Danny Ferguson http://www.brendoman.com/dbc */
+
+/* styles for nautica_2l marine skin */
+body {
+	font-family: Helvetica, arial, tahoma;
+	font-size: 85%;
+	color: #888;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* Set the page width here */
+#menu-top, #header, #wrapper-content, #wrapper-footer {
+	width: 85%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#menu-top {
+	background: white url('img/bg02-white-right.png') no-repeat right top;
+	overflow: hidden;
+}
+
+#menu-top ul {
+	background: transparent url('img/bg02-white-left.png') no-repeat left top;
+	margin:0;
+	padding: 1em 0 0 0;
+	list-style: none;
+	font-size: 85%;
+	float: left;
+	padding-left: 20px;
+}
+
+#menu-top li {
+	display: inline;
+	float: left;
+	background:url(img/menuleft.png) no-repeat left top;
+	padding-left: 4px;
+}
+
+#menu-top a {
+	float: left;
+	margin:0;
+	padding:4px 10px 4px 6px;
+	text-decoration:none;
+	line-height: 1.5em;
+	background: transparent url(img/menuright.png) no-repeat right top;
+}
+
+#menu-top a span strong {
+	color: #444;
+	color: #1B4F7E
+}
+
+#menu-top li:hover {
+	background-position:0% -42px;
+}
+
+#menu-top a:hover {
+	background-position:100% -42px;
+ }
+
+#menu-top li:hover {
+	background-position:0% -42px;
+}
+
+#menu-top a:hover {
+	background-position:100% -42px;
+}
+
+#wrapper-header {
+	background: transparent url('img/bg.png') top center repeat-x;
+}
+
+#header {
+	background: #eee url('img/banner_sea.jpg') no-repeat center top;
+}
+
+#wrapper-header2 {
+	background: transparent url('img/bg02-blue-left.png') top left no-repeat;
+}
+
+#wrapper-header3 {
+	background: transparent url('img/bg02-blue-right.png') top right no-repeat;
+	height: 185px;
+}
+
+#header h1 {
+	margin: 0 20px;
+	padding: 0;
+	height: 185px;
+	line-height: 0em;
+	color: #777;
+	font-size: 100%;
+	}
+html>body #wrapper-header3 {
+	height: 192px;
+  margin: 0;
+  padding: 0;
+}
+#header .widget_core_coll_tagline {
+  margin: -150px 20px 0 20px;
+  color: #cc0000;
+  font-size: 100%;
+}
+#header h1 a {
+	font-size: 180%;
+	line-height: 2em;
+	margin: 0;
+	padding: 0;
+	color: #cc0000
+}
+
+#wrapper-content {
+	background: white url('img/bg02-white-left.png') no-repeat left top;
+	line-height: 180%;
+}
+
+* html #wrapper-content {
+	height: 1%;
+}
+
+#content {
+	background: transparent url('img/bg02-white-right.png') no-repeat right top;
+	padding: 5px 245px 5px 40px;
+}
+
+#content_layout {
+	float: left;
+	width: 100%;
+}
+
+#wrapper-menu-page {
+	float: right;
+	width:180px;
+	margin: 20px 30px 3em 2em;
+	line-height: 140%;
+	font-family:"Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+}
+
+* html #wrapper-menu-page {
+	margin-right: 15px;
+}
+
+#menu-page {
+	padding-top: 5px;
+}
+.bSideItem {
+	padding-top: 5px; 
+	background: transparent url('img/menu.png') no-repeat;
+	padding: 1px 20px 20px 10px;
+}
+
+.bSideItem ul {
+	margin: 0;
+	padding: 0 0 25px 10px;
+	list-style: none;
+	font-size: 90%;
+}
+
+.bSideItem ul ul {
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+.bSideItem h2 {
+	font-size: 75%;
+	text-transform: uppercase;
+	margin: 1em 0 0.3em 0;
+	color: #5b8fbe;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+	text-align: center;
+}
+
+.bSideItem h4 {
+	font-size: 90%;
+	margin: 0;
+	padding: 0 0 0 10px;
+	color: #444;
+	font-weight: normal;
+}
+
+.bSideItem p {
+	font-size: 90%;
+	padding: 0 10px;
+}
+
+.bSideItem a:link, .bSideItem a:visited {
+	color: #888;
+}
+
+.bSideItem a:hover {
+	color: #5b8fbe;
+}
+
+.bText p {
+	margin: 0.2em 0 1em 0;
+}
+
+.bPost {
+	margin: 0 0 3em 0;
+}
+
+#wrapper-footer {
+	margin-top: 1em;
+	text-align: center;
+}
+
+#footer {
+	margin: 0 20px;
+	background-color: #e5f0fc;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #E5F0FC;
+	clear: both;
+}
+
+h2 { 
+	font-size: 130%;
+	margin: 0.8em 0 0.2em 0;
+}
+
+h3 {
+	font-size: 100%;
+}
+
+a:link, a:visited {
+	color: #5b8fbe;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #666;
+	text-decoration: none;
+}
+
+img.middle {
+	vertical-align: middle;
+	border: 0px;
+/* display: none; */
+}
+
+blockquote {
+	background: #F2F2F2;
+	padding: 1px 25px;
+	margin: 0 10px;
+	border: 1px dashed #D7D7D7;
+}
+/*
+.searchbar {
+	height: 25px;
+	background: #FFF;
+	border: 1px solid #D7D7D7;
+	width: 140px;
+	padding: 0;
+	margin: 16px 12px 20px 7px;
+}
+
+input.SearchField {
+	float: left;
+	background-color: #FFF;
+	border: none;
+	padding: 6px 2px 0px 4px;
+	width: 110px;
+	height: 18px;
+	margin: 0;
+}
+
+input.submit {
+	float: right;
+	margin-top: 2px;
+}
+*/
+input.SearchField {
+  width: 130px;
+}
+.bCommentTitle {
+	font-weight: bold;
+}
+
+.bComment {
+	padding: 0.5em 0;
+	margin: 1em 0;
+}
+
+.bCommentSmallPrint {
+	font-size: 80%;
+}
+
+.bSmallPrint {
+	font-size: 80%;
+}
+
+input.submit, input.preview, input.reset {
+	background-color: #ddd;
+	color: #78a;
+	border: 1px solid #000;
+	font-weight: bold;
+	padding: 1px;
+}
+
+input.submit:hover, input.preview:hover {
+	color: #000;
+}
+
+div.moderation_msg {
+	margin: 1ex 2ex;
+	padding: 0 1ex;
+	border: 1px dotted #fa9;
+	color: #e70;
+}
+.searchbar input.submit {
+  border: none;
+  background-color: transparent;
+  color: none;
+}
+
+li.bSideItem {
+  list-style: none;
+}
+div.bCommentSmallPrint {
+  clear: left;
+}
+form.bComment {
+  border: none;
+}
+
+#bCalendarToday {
+  background-color: #eee;
+  border: 1px solid #5B8FBE;
+}

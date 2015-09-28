@@ -1,0 +1,36 @@
+/* Browsers don't always get this right, so just enough to make the body print okay */
+body {
+font-family: serif; font-size: 11pt;
+}
+
+#wrapper-header {
+margin: 0px;
+padding: 0px;
+width: auto;
+font-weight: bold;
+border: none;
+}
+
+.bTitle {
+margin-top: 12px;
+margin-bottom: 6px;
+}
+
+img {
+border: none;
+}
+
+.bPosts, .bPost {
+float: none;
+margin: 0px;
+padding: 0px;
+width: auto
+}
+
+.bPost {
+margin-bottom: 22px;
+}
+
+#menu-top, #wrapper-menu-page, #wrapper-footer {
+display: none;
+}
