@@ -23,18 +23,6 @@ if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.'
 	<ul>
 <?php
 		// Display container and contents:
-		skin_container( NT_('Page Top'), array(
-				// The following params will be used as defaults for widgets included in this container:
-				'block_start' => '',
-				'block_end' => '',
-				'block_display_title' => false,
-				'list_start' => '',
-				'list_end' => '',
-				'item_start' => '<li class="$wi_class$">',
-				'item_end' => '</li>',
-			) );
-
-		// Display container and contents:
 		skin_container( NT_('Menu'), array(
 				// The following params will be used as defaults for widgets included in this container:
 				'block_start' => '',
